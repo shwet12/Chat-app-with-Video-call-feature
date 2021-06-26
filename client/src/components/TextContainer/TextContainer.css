@@ -9,13 +9,14 @@
   
   .activeContainer {
     display: flex;
-    align-items: center;
-    margin-bottom: 50%;
+    font-size: 30px;
+    flex-direction: column;
   }
   
   .activeItem {
     display: flex;
     align-items: center;
+    padding: 10px 0;
   }
   
   .activeContainer img {

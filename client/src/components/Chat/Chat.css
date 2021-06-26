@@ -1,9 +1,10 @@
 .outerContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
-    background-color: #1A1A1D;
+    margin: auto;
+    width: 80vw;
   }
   
   .container {
@@ -13,8 +14,42 @@
     background: #FFFFFF;
     border-radius: 8px;
     height: 60%;
-    width: 35%;
+    width: 50%;
   }
+
+  .videoStyle{
+    width: 50%;
+    height: 30%;
+    margin-right: 30px;
+}
+.endCall{
+  color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    margin-top: 174px;
+    margin-left: 484px;
+}
+
+.secondContainer{
+  height: 60%;
+    width: 50%;
+    margin-left: 100px;
+}
+.videoContainer{
+    display: flex;
+}
+.caller{
+  margin-left: 100px;
+}
+.callContainer{
+  margin-top: 150px;
+    align-self: flex-start;
+}
   
   @media (min-width: 320px) and (max-width: 480px) {
     .outerContainer {
